@@ -85,6 +85,21 @@ In addition to size, noise, color, and background, you can also set the followin
 * `height`: number // height of captcha
 * `fontSize`: number // captcha text size
 * `charPreset`: string // random character preset
+* `text`: string // captcha text
+
+Add label `label: {...}`:
+* `width`: // number width of label block
+* `height`: // number height of label block
+* `color`: // string
+* `text`: // string
+* `textPositionX`: // number
+* `textPositionY`: // number
+* `fontSize`: // number
+* `background`: // string
+
+Add border `border: {...}`:
+* `color`: // string
+* `width`: // number
 
 #### `svgCaptcha.randomText([size|options])`  
 return a random string.
